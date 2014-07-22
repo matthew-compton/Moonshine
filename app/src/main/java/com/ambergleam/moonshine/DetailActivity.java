@@ -1,9 +1,9 @@
 package com.ambergleam.moonshine;
 
-import android.app.Activity;
 import android.os.Bundle;
+import android.support.v7.app.ActionBarActivity;
 
-public class DetailActivity extends Activity {
+public class DetailActivity extends ActionBarActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -11,7 +11,7 @@ public class DetailActivity extends Activity {
         setContentView(R.layout.activity_detail);
 
         if (savedInstanceState == null) {
-            getFragmentManager().beginTransaction()
+            getSupportFragmentManager().beginTransaction()
                     .add(R.id.container, new DetailFragment())
                     .commit();
         }
