@@ -3,6 +3,13 @@
       xmlns:tools="http://schemas.android.com/tools">
 
     <item
+        android:id="@+id/action_share"
+        android:title="@string/action_share"
+        app:showAsAction="always"
+        app:actionProviderClass="android.support.v7.widget.ShareActionProvider"
+        android:icon="@android:drawable/ic_menu_share"/>
+
+    <item
         android:id="@+id/action_settings"
         android:title="@string/action_settings"
         android:orderInCategory="100"
