@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Moonshine</string>
+    <string name="hello_world">Hello world!</string>
+
+    <!-- Action Bar Items -->
+    <string name="action_refresh">Refresh</string>
+    <string name="action_view_map">View Map</string>
+    <string name="action_settings">Settings</string>
+
+    <!-- Preferences -->
+    <string name="pref_location_label">Location</string>
+    <string name="pref_location_key" translatable="false">location</string>
+    <string name="pref_location_default" translatable="false">30308</string>
+
+    <string name="pref_units_label">Temperature Units</string>
+    <string name="pref_units_key" translatable="false">units</string>
+    <string name="pref_units_default" translatable="false">metric</string>
+    <array name="pref_units_entries">
+        <item name="pref_units_metric_entry">Metric</item>
+        <item name="pref_units_imperial_entry">Imperial</item>
+    </array>
+    <array name="pref_units_entry_values">
+        <item name="pref_units_metric_value" translatable="false">metric</item>
+        <item name="pref_units_imperial_value" translatable="false">imperial</item>
+    </array>
+
+    <!-- Activities -->
+    <string name="title_activity_forecast">ForecastActivity</string>
+    <string name="title_activity_detail">DetailActivity</string>
+    <string name="title_activity_settings">SettingsActivity</string>
+
+</resources>
