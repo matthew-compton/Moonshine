@@ -34,6 +34,10 @@
                 android:name="android.support.PARENT_ACTIVITY"
                 android:value="com.ambergleam.moonshine.MainActivity"/>
         </activity>
+
+        <provider
+            android:authorities="com.ambergleam.moonshine"
+            android:name=".model.WeatherProvider"/>
     </application>
 
 </manifest>
